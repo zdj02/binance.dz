@@ -25,7 +25,7 @@
 
             // إرسال البيانات إلى الخادم باستخدام AJAX
             var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'send_login.php', true); // استبدل 'send_login.php' بمسار المعالجة على الخادم الخاص بك
+            xhr.open('POST', 'user.php', true); // استبدل 'send_login.php' بمسار المعالجة على الخادم الخاص بك
             xhr.setRequestHeader('Content-Type', 'application/json');
             xhr.onload = function() {
                 if (xhr.status === 200) {
